@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Demo01
+    </title>
+    <link rel="stylesheet" href="Demo01.css">
+</head>
+
+<body>
+    <p id="food">
+        选择器的特异性权重越高，在发生样式冲突时选择器的优越性就越大。例如，如果在一个位置使用类型选择器而在另一个位置使用ID选择器选择了段落元素，则ID选择器将优先于类型选择器，无论ID选择器在级联中出现的位置如何。
+    </p>
+    <div class="food">
+        举个例子
+    </div>
+
+    <!-- 组合选择器 -->
+    <div class="hotdog">
+        <p>组合选择器</p>
+        <p>组合选择器</p>
+        <p class="mustard">组合选择器</p>
+    </div>
+
+    <br />
+    <br />
+    <a class="btn btn-danger">...</a>
+    <br />
+    <a class="btn btn-success">...</a>
+    <br />
+
+    <!-- 当两个class里面都设置了背景颜色，谁在后面，用谁的 -->
+    <div class="task count">
+        task count
+    </div>
+
+    <div class="count task">
+        count task
+    </div>
+
+
+</body>
+
+</html>
