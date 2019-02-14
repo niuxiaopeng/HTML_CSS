@@ -1,0 +1,43 @@
+/* 值block将使该元素成为块级元素。 */
+p {
+    display: block;
+  }
+
+  /* 值inline将使该元素成为内联级元素。 */
+  p {
+    display: inline;
+  }
+
+  /* 使用此值将允许元素表现为块级元素，接受所有盒模型属性（我们将很快介绍）。但是，元素将与其他元素一起显示，默认情况下不会在新行上开始。 */
+  p {
+    display: inline-block;
+  }
+
+  /* 内联块元素之间的空间 */
+/* 与内联块元素的一个重要区别是它们并不总是接触或直接相互显示。通常在两个内联块元素之间存在一个小空间。这个空间虽然可能很烦人但很正常。我们将在下一课中讨论为什么这个空间存在以及如何删除它。 */
+  
+/* 值none将完全隐藏元素并呈现页面，就好像该元素不存在一样。嵌套在此元素中的任何元素也将被隐藏。 */
+/* div {
+    display: none;
+  } */
+
+  div {
+    border: 6px solid #949599;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+  }
+
+  /* 根据盒子模型，可以使用以下公式计算元素的总宽度： */
+  /* margin-right + border-right + padding-right + width + padding-left + border-left + margin-left */
+
+  /* 相比之下，根据框模型，可以使用以下公式计算元素的总高度： */
+  /* margin-top + border-top + padding-top + height + padding-bottom + border-bottom + margin-bottom */
+
+  /* 元素的默认宽度取决于其显示值。块级元素的默认宽度为100%，占用整个可用的水平空间。内联块和内联块元素水平扩展和收缩以适应其内容。内联级元素不能具有固定大小，因此width和height属性仅与非内联元素相关。 */
+
+
+
+
+  
