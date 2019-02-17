@@ -23,7 +23,10 @@ code {
     background: #eaeaed;
     border-radius: 6px;
     clear: both;
+    /* 啥意思
+    删除了，或者将值改为100,1000都没有任何变化 */
     *zoom: 1;
+    
   }
   .group,
   header,
