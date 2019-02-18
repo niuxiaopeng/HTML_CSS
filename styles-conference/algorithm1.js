@@ -25,5 +25,4 @@ function mainFun(count){
     }
 }
 
-
-mainFun(20);
+module.exports = mainFun;
