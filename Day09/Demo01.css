@@ -1,0 +1,11 @@
+img {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* img {
+    /* border-radius: 6px; */
+    display: block;
+    height: 200px;
+    width: 200px;
+  } */

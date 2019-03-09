@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        .wrappertop2 {
+            color: blue;
+        }
+
+        .wrappertop {
+            color: red;
+        }
+
+        .wrappertop3 {
+            color: red;
+        }
+
+        .wrappertop4 {
+            color: blue;
+        }
+    </style>
+    <title>新增消息</title>
+
+</head>
+
+<body>
+    <p>
+        结果如下图，由此可见，在style中后声明的样式是最终效果，而与 class="" 中式样的顺序无关
+    </p>
+    <div class="wrappertop wrappertop2">
+        <div class="title">消息名</div>
+    </div>
+    <div class="wrappertop2 wrappertop">
+        <div class="title">消息名</div>
+    </div>
+    <div class="wrappertop3 wrappertop4">
+        <div class="title">消息名</div>
+    </div>
+    <div class="wrappertop4 wrappertop3">
+        <div class="title">消息名</div>
+    </div>
+</body>
+
+</html>
