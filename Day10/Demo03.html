@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Day10_Demo03
+    </title>
+    <link rel="stylesheet" href="Demo03.css">
+</head>
+
+<body>
+    <div>
+        <p>
+            label的for属性需要与为之服务的控件的id绑定，只要一点击这个label控件就可以选中那个绑定的控件
+        </p>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+    </div>
+
+
+    <div>
+        <label>
+            <input type="radio" name="day" value="Friday" checked> Friday
+        </label>
+        <label>
+            <input type="radio" name="day" value="Saturday"> Saturday
+        </label>
+        <label>
+            <input type="radio" name="day" value="Sunday"> Sunday
+        </label>
+    </div>
+
+    <div>
+        <p>
+            fieldset演示 disable演示
+        </p>
+        <fieldset disabled>
+            <legend>Login</legend>
+            <label>
+                Username
+                <input type="text" name="username">
+            </label>
+            <label>
+                Password
+                <input type="password" name="password">
+            </label>
+        </fieldset>
+    </div>
+
+    <div>
+        <p>
+            disable演示
+        </p>
+        <label>
+            Username
+            <input type="text" name="username" disabled>
+        </label>
+    </div>
+
+    <div>
+        <p>
+            placeholder演示
+            <br>
+            placeholder和value属性之间的主要区别在于，value当控件具有焦点时，属性值文本保持不变，除非用户手动删除它。这对于为用户预先填充数据（例如个人信息）而非提供建议非常有用。
+        </p>
+        <label for="email-address">
+            Email Address
+            <input type="email" id="email-address" name="email-address" placeholder="name@domain.com">
+        </label>
+
+        <label for="email-address1">
+            Email Address
+            <input type="email" id="email-address1" name="email-address" value="name@domain.com">
+        </label>
+    </div>
+
+    <div>
+        <p>
+            required演示
+        </p>
+        <form>
+
+            <label>
+                Email Address
+                <input type="email" name="email-address" required>
+            </label>
+
+            <input type="submit" name="submit">
+
+        </form>
+
+        <a rel="next" href="http://www.w3school.com.cn/tags/tag_input.asp">
+            想了解更多input属性，请点击这里</a>
+    </div>
+
+</body>
+
+</html>
