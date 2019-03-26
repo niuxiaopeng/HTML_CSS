@@ -1,0 +1,26 @@
+body {
+  color: #fff;
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+.box-set,
+.box {
+  border-radius: 6px;
+}
+.box-set {
+  background: #eaeaed;
+  overflow: auto;
+  /* overflow: scroll; */
+}
+.box {
+  background: #2db34a;
+  box-shadow: 0 15px 20px #ff7b29;
+  float: left;
+  margin: 1.858736059%;
+  padding: 20px 0;
+  text-align: center;
+  width: 29.615861214%;
+}
+.box:nth-child(2) {
+  position: relative;
+  top: 20px;
+}
