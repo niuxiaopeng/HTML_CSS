@@ -1,0 +1,15 @@
+body {
+  color: #666;
+  font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+/* 新版本所有的浏览器都支持的写法 */
+::selection {
+  background: red;
+}
+/* 这里是旧版本火狐浏览器的写法 */
+/* 旧版Firefox语法（版本61及更低版本） */
+::-moz-selection {
+  /* background: #ff7b29; */
+  background: green; 
+}
